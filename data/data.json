@@ -1,0 +1,154 @@
+[
+    {
+        "id": 1,
+        "name": "PE Kese",
+        "image": "/images/butik2.webp",
+        "images": ["/images/butik2.webp"],
+        "desc": "U našoj proizvodnji možete pronaći i veliki izbor kvalitetnih i personalizovanih kesa",
+        "url": "/pe-bags" 
+    },
+    {
+        "id": 2,
+        "name": "Butik Kese",
+        "image": "/images/butik2.webp",
+        "images": ["/images/butik1.webp", "/images/butik2.webp", "/images/butik3.webp", "/images/butik4.webp", "/images/butik5.webp"],
+        "desc": "",
+        "url": "/" 
+    },
+    {
+        "id": 3,
+        "name": "Tregerice",
+        "image": "/images/tregerice1.webp",
+        "images": ["/images/tregerice1.webp", "/images/tregerice2.webp", "/images/tregerice3.webp", "/images/tregerice4.webp"],
+        "desc": "",
+        "url": "/" 
+    },
+    {
+        "id": 4,
+        "name": "PE Vreće",
+        "image": "/images/pe-v-bags1.webp",
+        "images": ["/images/pe-v-bags1.webp", "/images/pe-v-bags2.webp", "/images/pe-v-bags3.webp"],
+        "desc": "Pored kesa, kod nas možete pronaći i veliku kolekciju vreća, džakova ...   ",
+        "url": "/pe-v-bags" 
+    },
+    {
+        "id": 5,
+        "name": "Vreće za smeće",
+        "image": "/images/home2.jpg",
+        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "desc": "",
+        "url": "/" 
+    },
+    {
+        "id": 6,
+        "name": "Crne folije",
+        "image": "/images/black-foil4.webp",
+        "images": ["/images/black-foil1.webp", "/images/black-foil2.webp", "/images/black-foil3.webp", "/images/black-foil4.webp"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/pe-black-foil" 
+    },
+    {
+        "id": 7,
+        "name": "Traktori",
+        "image": "/images/IMT-549.3-DI.webp",
+        "images": ["/images/IMT-539.2-DI.webp", "/images/IMT-549.3-DI.webp", "/images/SOLIS-1.webp", "/images/SOLIS-2.webp", "/images/SOLIS-3.webp"],
+        "desc": "Nudimo širok izbor poljoprivrednih mašina, sa posebnim fokusom na Solis i IMT traktore. Ovi brendovi su sinonim za pouzdanost, dugotrajnost i efikasnost, što ih čini idealnim izborom za sve vrste poljoprivrednih poslova.",
+        "url": "/tractors" 
+    },
+    {
+        "id": 8,
+        "name": "Traktorske prikolice",
+        "image": "/images/trailer2.webp",
+        "images": ["/images/trailer1.webp", "/images/trailer2.webp", "/images/trailer3.webp"],
+        "desc": "Pored traktora, u ponudi imamo i traktorske prikolice koje kombinuju kvalitet i pristupačnost. Prikolice su dizajnirane da izdrže teške uslove rada, pružajući sigurnost i efikasnost prilikom transporta različitih vrsta tereta i rada u povrtarstvu, ratarstvu ili voćarstvu",
+        "url": "/tractor-trailers" 
+    },
+    {
+        "id": 9,
+        "name": "Priključne mašine",
+        "image": "/images/home2.jpg",
+        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/connecting-machines" 
+    },
+    {
+        "id": 10,
+        "name": "Folije za plastenike",
+        "image": "/images/greenhouse2.webp",
+        "images": ["/images/greenhouse1.webp", "/images/greenhouse2.webp", "/images/greenhouse3.webp"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/greenhouse-foil" 
+    },
+    {
+        "id": 11,
+        "name": "Rezervni delovi",
+        "image": "/images/home2.jpg",
+        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/spare-parts" 
+    },
+    {
+        "id": 12,
+        "name": "Pelet",
+        "image": "/images/home2.jpg",
+        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/pelet" 
+    },
+    {
+        "id": 13,
+        "name": "Proizvodni program",
+        "image": "/images/butik2.webp",
+        "images": ["/images/butik2.webp"],
+        "desc": "Naš proizvodni program nudi širok asortiman kesa, vreća, crnih folija i svega što vam je potrebno za ..." ,
+        "url": "/production-program" 
+    },
+    {
+        "id": 14,
+        "name": "Poljoprivredne mašine",
+        "image": "/images/IMT-549.3-DI.webp",
+        "images": ["/images/IMT-549.3-DI.webp", "/images/home1.jpeg"],
+        "desc": "Kod nas možete pronaći veliki izbor poljoprivrednih mašina, traktora, traktorskih prikolica, kao i drugih priključnih mašina",
+        "url": "/agricultural-machines" 
+    },
+    {
+        "id": 15,
+        "name": "Poljoprivredna apoteka",
+        "image": "/images/FUNGICIDI.webp",
+        "images": ["/images/FUNGICIDI.webp", "/images/home1.jpeg"],
+        "desc": "Naša poljoprivredna apoteka nudi sve što vam je potrebno za savremenu i efikasnu poljoprivrednu proizvodnju. U ponudi su sredstva za zaštitu bilja, mineralna i vodotopiva đubriva, kao i pomoćni preparati za zdrav i visok prinos useva. ",
+        "url": "/pharmacy" 
+    },
+    {
+        "id": 16,
+        "name": "Fungicidi",
+        "image": "/images/FUNGICIDI.webp",
+        "images": ["/images/FUNGICIDI.webp"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/pharmacy"
+    },
+    {
+        "id": 17,
+        "name": "Herbicidi",
+        "image": "/images/HERBICIDI.webp",
+        "images": ["/images/HERBICIDI.webp"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/pharmacy"
+    },
+    {
+        "id": 18,
+        "name": "Insekticidi",
+        "image": "/images/INSEKTICIDI.webp",
+        "images": ["/images/INSEKTICIDI.webp"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/pharmacy"
+    },
+    {
+        "id": 19,
+        "name": "Veštačko đubrivo",
+        "image": "/images/home2.jpg",
+        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "url": "/pharmacy"
+    }
+]

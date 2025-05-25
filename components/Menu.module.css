@@ -1,0 +1,16 @@
+.menu {
+  opacity: 0;
+  transform: translatex(1550px);
+  transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.menu.menuVisible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+@media screen and (max-width: 600px) {
+  .menu {
+    transform: translateX(350px) ;
+  }
+}
