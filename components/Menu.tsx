@@ -8,7 +8,6 @@ import { GiGreenhouse } from "react-icons/gi";
 import { FaWrench } from "react-icons/fa";
 import { FaPrescriptionBottle } from "react-icons/fa";
 import { FaFireAlt } from "react-icons/fa";
-import logo from "../public/images/logo.png";
 import styles from "./Menu.module.css";
 import Link from 'next/link';
 import Image from 'next/image';
@@ -55,7 +54,7 @@ const Menu = ({onClose}: MenuProps) => {
             </div>
             <div className='absolute text-3xl cursor-pointer' 
                 style={{top: "20px", left: "20px"}}>
-                <Image src={logo} alt='logo' height={70}/>
+                <Image src={"/images/logo.webp"} alt='logo' height={70}/>
             </div>
 
             <div className='flex flex-col gap-3'>
