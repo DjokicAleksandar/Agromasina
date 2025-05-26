@@ -44,7 +44,7 @@ const Vrece = () => {
           </div>  
         </PageComponent>
 
-        <PageComponent product={vreceZaSmece} header='' index={1}>
+        <PageComponent product={vreceZaSmece} header='' index={1} aspectRatio='1/1'>
           <div>
             <p>
               U našoj proizvodnji izrađujemo i <b>vreće za smeće</b>, namenjene za domaćinstva, ugostiteljstvo, industriju,

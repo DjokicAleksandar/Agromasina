@@ -16,7 +16,7 @@ const Bags = () => {
         className="w-full flex justify-center items-center flex-col gap-4" 
         style={{backgroundColor: "rgb(245, 245, 245)"}}>
 
-        <PageComponent product={butikKese} header='Pe Kese' index={0}>
+        <PageComponent product={butikKese} header='Pe Kese' index={0} aspectRatio='1/1'>
           <div>
             <p>
               Proizvodimo visokokvalitetne <b>butik kese</b> namenjene za butike i šopove koji žele da ostave 

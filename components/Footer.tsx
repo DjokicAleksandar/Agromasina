@@ -18,11 +18,11 @@ const Footer = () => {
             <Image src={"/images/logo.webp"} alt="logo" height={ isMobile ? 100 : 130} width={ isMobile ? 190 : 230 } className={`text-3xl mt-3 p-2`}/>
             <div className={`flex justify-around items-center gap-4 p-3 pt-1 ${isMobile ? "flex-col" : "flex-row"}`}
                 style={{width: "70%"}}>
-                <Link className="m-2 text-2xl" href="/privacy-policy"> Politika privatnosti </Link>
-                <Link className="m-2 text-2xl" href="/contact"> Kontakt </Link>
-                <Link className="m-2 text-2xl" href="/terms-of-service"> Uslovi korišćenja </Link>
+                <Link className="m-2 text-2xl whitespace-nowrap" href="/privacy-policy"> Politika privatnosti </Link>
+                <Link className="m-2 text-2xl whitespace-nowrap" href="/contact"> Kontakt </Link>
+                <Link className="m-2 text-2xl whitespace-nowrap" href="/terms-of-service"> Uslovi korišćenja </Link>
             </div>
-            <p className="text-md" style={{color: "gray"}}>Copyright © 2000 - 2024 Agromašina plus, Sva prava zadržana</p>
+            <p className="text-md text-center" style={{color: "gray"}}>Copyright © 2000 - 2024 Agromašina plus, Sva prava zadržana</p>
             <div className="flex justify-center items-center gap-4 mb-4 p-3">
                 <a href="#" style={{width: "33%"}}><FaInstagram className="text-3xl"/></a>
                 <a href="#" style={{width: "33%"}}><FaFacebook className="text-3xl"/></a>

@@ -39,7 +39,7 @@ const Breadcrumb = () => {
 
     return (
         <nav className='absolute' style={{marginTop: threshold + 'px'}}>
-            <ul className={`flex p-5 ml-5 gap-2 ${isMobile ? "text-lg" : "text-2xl"}`}>
+            <ul className={`flex flex-wrap p-5 ml-5 gap-x-2 ${isMobile ? "text-lg pl-3" : "text-2xl"}`}>
                 <li>
                     <Link href="/" className='hover:underline text-[#0a2b14]'>Početna </Link>
                 </li>
@@ -47,7 +47,9 @@ const Breadcrumb = () => {
                 {from ? 
                     <li>
                         <span> {">"} </span>
-                        <Link href={`/${from}`} className='hover:underline text-[#0a2b14]'> {nameMap[from as NameMapKey]} </Link>
+                        <Link href={`/${from}`} className='hover:underline text-[#0a2b14] whitespace-nowrap'> 
+                            {nameMap[from as NameMapKey]} 
+                        </Link>
                     </li>
                     :
                     null}
@@ -59,13 +61,11 @@ const Breadcrumb = () => {
                         <li key={index} className='flex justify-center items-center gap-2'>
                             <span> {">"} </span>
                             {index == crumbs.length - 1 ? 
-                                <div className={`capitalize "text-[#424242]"`}>
-                                    {/* {decodeURIComponent(crumb.replace(/-/g, " "))} */}
+                                <div className={`capitalize "text-[#424242] whitespace-nowrap"`}>
                                     {nameMap[crumb as NameMapKey] || crumb}
                                 </div> 
                                 : 
-                                <Link href={href} className={`hover:underline capitalize "text-[#0a2b14]"}`}>
-                                    {/* {decodeURIComponent(crumb.replace(/-/g, " "))} */}
+                                <Link href={href} className={`hover:underline capitalize text-[#0a2b14] whitespace-nowrap`}>
                                     {nameMap[crumb as NameMapKey] || crumb}
                                 </Link>}
                         </li>

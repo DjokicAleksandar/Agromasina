@@ -54,12 +54,12 @@ const Menu = ({onClose}: MenuProps) => {
             </div>
             <div className='absolute text-3xl cursor-pointer' 
                 style={{top: "20px", left: "20px"}}>
-                <Image src={"/images/logo.webp"} alt='logo' height={70}/>
+                <Image src={"/images/logo.webp"} alt='logo' height={ isMobile ? 60 : 70} width={ isMobile ? 120 : 140} style={{aspectRatio: "16/9"}}/>
             </div>
 
             <div className='flex flex-col gap-3'>
                 <div className={`flex items-center gap-4 ${isMobile ? "text-2xl" : "text-4xl"} p-3 shadow-md bg-white whitespace-nowrap`}>
-                    <FaTractor/>
+                    <FaBagShopping/>
                     <Dropdown 
                         name='Proizvodni program' 
                         items={["PE Kese", "PE Vreće", "Crna folija"]}
@@ -67,7 +67,7 @@ const Menu = ({onClose}: MenuProps) => {
                         onClose={handleClose}/>
                 </div>
                 <div className={`flex items-center gap-4 ${isMobile ? "text-2xl" : "text-4xl"} p-3 shadow-md bg-white whitespace-nowrap`}>
-                    <FaBagShopping/>
+                    <FaTractor/>
                     <Dropdown 
                         name='Poljoprivedne mašine' 
                         items={["Traktori", "Traktorske prikolice", "Priključne mašine"]}

@@ -29,7 +29,7 @@ const AgrMachines = () => {
         className="w-full flex justify-center items-center flex-col gap-4" 
         style={{backgroundColor: "rgb(245, 245, 245)"}}>
 
-        <div className='w-full' style={{marginBottom: "30px"}} ref={ref}>
+        <div className='w-full' style={{marginBottom: "40px"}} ref={ref}>
           <PageHeader header='Poljoprivredne Mašine'/>
         </div>
 

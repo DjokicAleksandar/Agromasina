@@ -34,8 +34,8 @@
     {
         "id": 5,
         "name": "Vreće za smeće",
-        "image": "/images/home2.jpg",
-        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "image": "/images/smece1.webp",
+        "images": ["/images/smece1.webp", "/images/smece2.webp"],
         "desc": "",
         "url": "/" 
     },
@@ -43,7 +43,7 @@
         "id": 6,
         "name": "Crne folije",
         "image": "/images/black-foil4.webp",
-        "images": ["/images/black-foil1.webp", "/images/black-foil2.webp", "/images/black-foil3.webp", "/images/black-foil4.webp"],
+        "images": ["/images/black-foil1.webp", "/images/black-foil2.webp"],
         "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
         "url": "/pe-black-foil" 
     },
@@ -66,8 +66,8 @@
     {
         "id": 9,
         "name": "Priključne mašine",
-        "image": "/images/home2.jpg",
-        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "image": "/images/conn1.webp",
+        "images": ["/images/conn1.webp", "/images/conn2.webp", "/images/conn3.webp", "/images/conn4.webp"],
         "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
         "url": "/connecting-machines" 
     },

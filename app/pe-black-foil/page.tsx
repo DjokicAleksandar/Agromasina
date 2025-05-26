@@ -15,7 +15,7 @@ const CrnaFolija = () => {
         className="w-full flex justify-center items-center flex-col gap-4" 
         style={{backgroundColor: "rgb(245, 245, 245)"}}>
       
-        <PageComponent product={crnaFolija} header='PE Crna Folija' index={0}>
+        <PageComponent product={crnaFolija} header='PE Crna Folija' index={0} aspectRatio='2/3'>
           <div>
             <p>
               U okviru sopstvene proizvodnje, razvili smo i plasirali naš brend <b>AGM Agrofol</b> – crnu foliju namenjenu za

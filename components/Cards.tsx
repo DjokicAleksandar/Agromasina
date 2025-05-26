@@ -16,9 +16,10 @@ interface CardsProps {
     cards: Product[];
     isHome: boolean;
     from: string;
+    aspectRatio? : string; 
 }
 
-const Cards = ({cards, isHome, from}: CardsProps) => {
+const Cards = ({cards, isHome, from, aspectRatio = "4/3"}: CardsProps) => {
     const isMobile = useIsMobile();
 
     return (
@@ -28,7 +29,8 @@ const Cards = ({cards, isHome, from}: CardsProps) => {
                     isHome ? 
                         <Card key={i} name={obj.name} images={obj.images} desc={obj.desc} url={obj.url} index={i}/>
                         :
-                        <PageCard key={i}name={obj.name} images={obj.images} desc={obj.desc} url={obj.url} index={i} from={from}/>
+                        <PageCard key={i} name={obj.name} images={obj.images} desc={obj.desc} 
+                            url={obj.url} index={i} from={from} aspectRatio={aspectRatio}/>
                 ))}
             </div>
         </div>

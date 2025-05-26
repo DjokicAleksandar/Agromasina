@@ -18,7 +18,7 @@ const Pharmacy = () => {
         className="w-full flex justify-center items-center flex-col gap-4" 
         style={{backgroundColor: "rgb(245, 245, 245)"}}>
 
-        <PageComponent product={fungicidi} header='Poljoprivredna apoteka' index={0}>
+        <PageComponent product={fungicidi} header='Poljoprivredna apoteka' index={0} aspectRatio='2/1'>
           <div>
             <p>
               <b>Fungicidi su hemijska ili biološka sredstva koja se koriste za suzbijanje i sprečavanje gljivičnih oboljenja kod biljaka.</b> 
@@ -26,7 +26,7 @@ const Pharmacy = () => {
             </p>
           </div>
         </PageComponent>
-        <PageComponent product={herbicidi} header='Poljoprivredna apoteka' index={1}>
+        <PageComponent product={herbicidi} header='Poljoprivredna apoteka' index={1} aspectRatio='2/1'>
           <div>
             <p>
               <b>Herbicidi su sredstva koja se koriste za uništavanje i suzbijanje korova u poljoprivredi.</b> 
@@ -34,7 +34,7 @@ const Pharmacy = () => {
             </p>
           </div>
         </PageComponent>
-        <PageComponent product={insekticidi} header='Poljoprivredna apoteka' index={2}>
+        <PageComponent product={insekticidi} header='Poljoprivredna apoteka' index={2} aspectRatio='2/1'>
           <div>
             <p>
               <b>Insekticidi su sredstva namenjena suzbijanju i uništavanju štetnih insekata koji napadaju biljke. </b>
@@ -42,7 +42,7 @@ const Pharmacy = () => {
             </p>
           </div>
         </PageComponent>
-        <PageComponent product={vdjubrivo} header='Poljoprivredna apoteka' index={3}>
+        <PageComponent product={vdjubrivo} header='Poljoprivredna apoteka' index={3} aspectRatio='2/1'>
           <div>
             <p>
               <b>Veštačko đubrivo je mineralno đubrivo proizvedeno industrijskim putem, 

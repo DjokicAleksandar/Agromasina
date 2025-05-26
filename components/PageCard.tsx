@@ -13,9 +13,10 @@ interface CardProps {
     url: string;
     index: number;
     from: string;
+    aspectRatio? : string;
 }
 
-const PageCard = ({name, images, desc, url, from}: CardProps) => {
+const PageCard = ({name, images, desc, url, from, aspectRatio = "4/3"}: CardProps) => {
     const isMobile = useIsMobile();
 
     return (
@@ -31,7 +32,7 @@ const PageCard = ({name, images, desc, url, from}: CardProps) => {
                     alt="Bags" 
                     src={images[0]}
                     className='w-full'
-                    style={{height: "auto"}}/>
+                    style={{height: "auto", aspectRatio: aspectRatio}}/>
 
                 <div className="p-4">
                     <p className={`text-4xl pt-3 pb-3`} style={{fontWeight: "200"}}>{name}</p>
