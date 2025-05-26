@@ -5,7 +5,6 @@ import PageHeader from './PageHeader'
 import ImageSlider from './ImageSlider'
 import { useIsMobile } from '@/hooks/useIsMobile';
 import { useThreshold } from '@/context/ThresholdContext';
-import Breadcrumb from './Breadcrumb';
 
 interface Product {
     name: string;
