@@ -18,7 +18,7 @@ const Tractors = () => {
         <PageComponent product={tractors} header='Traktori' index={0} aspectRatio='3/2'>
           <div>
             <p>
-              <b>Solis traktori</b> poznati su po modernoj tehnologiji, snažnim motorima i jednostavnom rukovanju, 
+              <b className='font-bold'>Solis traktori</b> poznati su po modernoj tehnologiji, snažnim motorima i jednostavnom rukovanju, 
               što ih čini izuzetno popularnim među poljoprivrednicima koji traže kombinaciju snage i pristupačne cene.
             </p>
             <br/>

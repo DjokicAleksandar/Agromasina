@@ -17,7 +17,7 @@ const Breadcrumb = () => {
         "pe-bags": "Pe Kese",
         "pe-black-foil": "Pe Crna Folija",
         "pe-v-bags": "Pe Vreće",
-        "pelet": "Pelet",
+        "pelet": "Montaža plastenika",
         "pharmacy": "Poljoprivredna Apoteka",
         "privacy-policy": "Politika Privatnosti",
         "production-program": "Proizvodni Program",
@@ -39,7 +39,7 @@ const Breadcrumb = () => {
 
     return (
         <nav className='absolute' style={{marginTop: threshold + 'px'}}>
-            <ul className={`flex flex-wrap p-5 ml-5 gap-x-2 ${isMobile ? "text-lg pl-3" : "text-2xl"}`}>
+            <ul className={`flex flex-wrap pb-5 pl-3 pt-5 ml-5 gap-x-2 ${isMobile ? "text-lg" : "text-2xl"}`}>
                 <li>
                     <Link href="/" className='hover:underline text-[#0a2b14]'>Početna </Link>
                 </li>

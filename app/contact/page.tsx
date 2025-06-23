@@ -1,9 +1,12 @@
 "use client";
 
+import React, { useRef, useEffect } from 'react';
 import Breadcrumb from '@/components/Breadcrumb';
 import PageHeader from '@/components/PageHeader';
+import { FaInstagram } from "react-icons/fa";
+import { FaRegEnvelope } from "react-icons/fa";
+import { FaPhoneAlt } from "react-icons/fa";
 import { useThreshold } from '@/context/ThresholdContext';
-import React, { useRef, useEffect } from 'react';
 
 const Contact = () => {
   const ref = useRef<HTMLDivElement>(null);
@@ -27,53 +30,45 @@ const Contact = () => {
             <PageHeader header='Kontakt'/>
           </div>
 
-          <div className='w-full p-5 m-5 text-xl'>
-            <p className="ml-5">
-              <b>Agromašina Plus</b> je porodična firma sa dugom tradicijom, osnovana davne 1994. godine. 
-              Naša priča počela je kao prodavnica rezervnih delova za poljoprivredne mašine, 
-              iz potrebe da poljoprivrednicima u regionu obezbedimo kvalitetne i dostupne komponente za svakodnevni rad. 
-              Kroz godine posvećenog rada, razvijali smo se i širili delatnost, 
-              prateći potrebe tržišta i osluškujući zahteve savremenog poljoprivrednika.
+          <div className='w-full p-3 m-5 text-xl' style={{marginTop: "30px"}}>
+            <p className="m-5">
+              <b>Dobrodošli na našu kontakt stranicu!</b>
             </p>
-            <br/>
-            <p className="ml-5">
-              Danas <b>Agromašina Plus</b> posluje kao moderna i višeslojna kompanija koja objedinjuje više oblasti delovanja, 
-              uz stalno ulaganje u razvoj i kvalitet.
+            <p className="m-5">
+              Ukoliko imate bilo kakva pitanja, predloge, komentare ili želite da poručite neki od naših proizvoda/usluga – 
+              ovde ste na pravom mestu.
             </p>
-            <br/>
-            <p className="ml-5">
-              Naše glavne delatnosti obuhvataju:
+              
+            <p className='m-5'>
+              Bez obzira da li vam je potrebna dodatna informacija o tome što nudimo, imate tehničko pitanje, 
+              želite da saznate više o ceni, rokovima ili želite da naručite – slobodno nas kontaktirajte. 
+              <b> Tu smo da odgovorimo jasno, brzo i konkretno.</b>
             </p>
-            <br/>
-            <ul className='ml-5 flex flex-col gap-4 pl-4'>
-              <li >
-                <b> - Prodavnicu rezervnih delova za poljoprivredne mašine, </b> 
-                sa bogatim asortimanom delova za različite tipove mehanizacije i opreme.
+
+            <ul className='m-5 flex flex-col gap-4'>
+              <li style={{display: "flex", alignItems: "center"}} className='gap-3'>
+                <FaRegEnvelope className='text-3xl text-[#0a2b14]'/>
+                <b> Email: </b> agromasinaplus@gmail.com
               </li>
-              <li>
-                <b> - Proizvodnju plastičnih kesa, vreća i folija</b> – segment kojim se posebno ponosimo. 
-                Naša proizvodnja omogućava brzu isporuku, fleksibilnost u dimenzijama i vrstama materijala, 
-                kao i visok kvalitet koji zadovoljava potrebe kako poljoprivrede, tako i drugih industrija.
+              <li style={{display: "flex", alignItems: "center"}} className='gap-3'>
+                <FaPhoneAlt className='text-2xl text-[#0a2b14]'/>
+                <b> Telefon: </b> 0612345678
               </li>
-              <li>
-                <b> - Poljoprivrednu apoteku</b>, gde naši stručni zaposleni pružaju savetodavne usluge i pomažu u izboru sredstava za zaštitu bilja, 
-                semenske robe, đubriva i drugih proizvoda koji čine osnov svake uspešne poljoprivredne proizvodnje.
-              </li>
-              <li>
-                <b> - Prodaju poljoprivredne mehanizacije</b> – traktora, prikolica i dodatne opreme potrebne za sve faze rada u polju i na farmi. 
-                Zastupamo renomirane proizvođače i nudimo tehničku podršku prilikom izbora i korišćenja opreme.
+              <li style={{display: "flex", alignItems: "center"}} className='gap-3'>
+                <FaInstagram className='text-3xl text-[#0a2b14]'/>
+                <b> Instagram: </b> @agromasinaplus
               </li>
             </ul>
-            <br/>
-            <p className="ml-5">
-              Više od 30 godina uspešno poslujemo zahvaljujući jasno postavljenim vrednostima – <b>kvalitet, odgovornost, 
-              inovacija i posvećenost kupcu</b>. Ponosni smo što smo postali oslonac mnogim gazdinstvima, preduzetnicima i firmama širom Srbije.
+            <p className='m-5'>
+              Trudimo se da odgovorimo u roku od 24 časa, najkasnije u roku od 48h, u zavisnosti od obima upita.
             </p>
-            <br/>
-            <p className="ml-5">
-              Dobrodošli u <b>Agromašinu Plus</b> – mesto gde se tradicija i savremenost susreću, 
-              a svaki kupac dobija rešenje prilagođeno njegovim potrebama.
+            <p className='m-5'>
+              Ne ustručavajte se da nas kontaktirate – svako pitanje je dobrodošlo, a svaka saradnja za nas je dragocena.
             </p>
+            <p className='m-5'>
+              <b>Hvala što ste posetili naš sajt. Radujemo se vašem javljanju!</b>
+            </p>
+
           </div>
         </div>
     </>

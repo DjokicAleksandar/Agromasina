@@ -36,7 +36,7 @@ const PageCard = ({name, images, desc, url, from, aspectRatio = "4/3"}: CardProp
 
                 <div className="p-4">
                     <p className={`text-4xl pt-3 pb-3`} style={{fontWeight: "200"}}>{name}</p>
-                    <p className="pt-2 pb-2 text-xl" style={{marginBottom: "50px"}}> 
+                    <p className={`pt-2 pb-2 text-xl`} style={{marginBottom: "50px"}}> 
                         {desc}
                     </p>
                     <Link 

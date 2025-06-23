@@ -18,13 +18,15 @@ const ConMachines = () => {
         <PageComponent product={connMachines} header='Priključne mašine' index={0} aspectRatio='2/1'>
           <div>
             <p>
-              Prodajemo visokokvalitetne <b>priključne mašine</b> namenjene za teške uslove rada, dostupne po pristupačnoj ceni 
+              Prodajemo visokokvalitetne <b className='font-bold'>priključne mašine</b> namenjene za teške uslove rada, dostupne po pristupačnoj ceni 
             </p>
+            <br/>
             <p>
               Naše kese izrađujemo od <b>LDPE ili HDPE materijala</b>, što garantuje izdržljivost, fleksibilnost i lep izgled. 
               Takođe, mogu biti <b>sa štampom po želji</b>, čime vaša ambalaža dobija prepoznatljiv i profesionalan izgled koji 
               dodatno promoviše vaš brend.
             </p>
+            <br/>
             <p>
               Butik kese su savršen izbor za sve koji žele da kombinuju kvalitet, funkcionalnost i atraktivan dizajn.
             </p>

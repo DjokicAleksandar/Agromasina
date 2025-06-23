@@ -18,18 +18,21 @@ const CrnaFolija = () => {
         <PageComponent product={crnaFolija} header='PE Crna Folija' index={0} aspectRatio='2/3'>
           <div>
             <p>
-              U okviru sopstvene proizvodnje, razvili smo i plasirali naš brend <b>AGM Agrofol</b> – crnu foliju namenjenu za
-              upotrebu u poljoprivredi. Reč je o kvalitetnoj foliji koja se koristi za <b>malčiranje zemljišta</b>, 
+              U okviru sopstvene proizvodnje, razvili smo i plasirali naš brend <b className='font-bold'>AGM Agrofol</b> – crnu foliju namenjenu za
+              upotrebu u poljoprivredi. Reč je o kvalitetnoj foliji koja se koristi za <b className='font-bold'>malčiranje zemljišta</b>, 
               odnosno prekrivanje površine oko biljaka radi očuvanja vlage, smanjenja rasta korova i poboljšanja 
               mikroklimatskih uslova u zoni korena.
             </p>
+            <br/>
             <p>
               Folija doprinosi bržem razvoju biljaka, smanjuje potrebu za hemijskim sredstvima i štiti zemljište od erozije i isušivanja. 
               Najčešće se koristi u proizvodnji povrća, jagoda, cveća i drugih kultura koje zahtevaju stabilne i kontrolisane uslove za rast.
             </p>
+            <br/>
             <p>
-              <b>AGM Agrofol</b> proizvodimo u sledećim širinama:
+              <b className='font-bold'>AGM Agrofol</b> proizvodimo u sledećim širinama:
             </p>
+            <br/>
             <ul className='pl-4'>
               <li> - 50cm</li>
               <li> - 60cm</li>
@@ -38,6 +41,7 @@ const CrnaFolija = () => {
               <li> - 1.20m</li>
               <li> - 1.50m</li>
             </ul>
+            <br/>
             <p>
               Folija je izrađena od kvalitetnog materijala, otporna je na UV zračenje i prilagođena radu na otvorenom, 
               u različitim vremenskim uslovima. Dolazi u rolni, spremna za lako i brzo postavljanje, ručno ili mehanički.

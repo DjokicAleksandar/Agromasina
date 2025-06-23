@@ -18,7 +18,7 @@ const Trailers = () => {
         <PageComponent product={trailers} header='Prikolice' index={0} aspectRatio='3/2'>
           <div>
             <p>
-              Pored traktora, u ponudi imamo i <b>traktorske prikolice koje kombinuju kvalitet i pristupačnost</b>. 
+              Pored traktora, u ponudi imamo i <b className='font-bold'>traktorske prikolice koje kombinuju kvalitet i pristupačnost</b>. 
               Prikolice su dizajnirane da izdrže teške uslove rada, pružajući sigurnost i efikasnost prilikom 
               transporta različitih vrsta tereta i rada u povrtarstvu, ratarstvu ili voćarstvu
             </p>

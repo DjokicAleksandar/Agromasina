@@ -1,16 +1,17 @@
 import Footer from "@/components/Footer";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
-import { Lexend } from 'next/font/google'
+import { Tinos } from 'next/font/google'
 import { ThresholdProvider } from "@/context/ThresholdContext";
 
-const lexend = Lexend({
+const inter = Tinos({
   subsets: ['latin'],
+  weight: "400"
 })
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={lexend.className}>
+    <html lang="en" className={inter.className}>
       <body>
         <ThresholdProvider>
           <Navbar/>

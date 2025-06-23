@@ -18,7 +18,7 @@ const SpareParts = () => {
         <PageComponent product={spareParts} header='Rezervni delovi' index={0}>
           <div>
             <p>
-              Kod nas možete pronaći sve <b>vrste rezervnih</b> delova za poljoprivredne mašine i opremu. 
+              Kod nas možete pronaći sve <b className='font-bold'>vrste rezervnih delova</b> za poljoprivredne mašine i opremu. 
               Bilo da vam trebaju delovi za traktore, priključne mašine ili druge uređaje, obezbeđujemo kvalitetne, 
               originalne i proverene komponente koje garantuju dugotrajnost i pouzdan rad.
             </p>

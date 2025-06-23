@@ -37,9 +37,9 @@ const PageComponent = ({product, header, children, index, aspectRatio = "3/4"}: 
                 <PageHeader header={header}/>
             </div>}
             
-            <div className={`flex justify-center items-center flex-col mb-5 mt-5 p-3`} style={{width: "95%"}}>
+            <div className={`flex justify-center items-center flex-col mb-5 p-3`} style={{width: "95%", marginTop: "40px"}}>
 
-                <div className="text-4xl flex justify-center items-center mt-5 mb-5 font-bold w-full">
+                <div className="text-4xl flex justify-center items-center mt-5 mb-5 p-3 font-bold w-full">
                     {product.name}
                 </div>
 

@@ -35,7 +35,7 @@ const Dropdown = ({name, items, links, onClose}: DropdownProps) => {
                 className='w-full flex items-center justify-between'
                 onClick={() => setOpen(prev => !prev)}>
                 {name}
-                <FaAngleDown className={`${open ? "rotate-180" : "rotate-0"} transition-all duration-300 ease-in-out`}/>
+                <FaAngleDown className={`${open ? "rotate-180" : "rotate-0"} transition-all duration-300 ease-in-out text-red-700`}/>
             </button>
 
             <div
@@ -45,7 +45,7 @@ const Dropdown = ({name, items, links, onClose}: DropdownProps) => {
                     <Link
                         href={links[index]}
                         className={`hover:underline cursor-pointer ${isMobile ? "text-xl" : "text-3xl"}`} 
-                        style={{color: "#424242"}} 
+                        style={{color: "#0a2b14"}} 
                         key={index}
                         onClick={onClose}>
                         - {item}

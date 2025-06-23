@@ -5,7 +5,7 @@ import PageHeader from '@/components/PageHeader';
 import { useThreshold } from '@/context/ThresholdContext';
 import React, { useRef, useEffect } from 'react';
 
-const About = () => {
+const Contact = () => {
   const ref = useRef<HTMLDivElement>(null);
   const { setThreshold } = useThreshold();
     
@@ -24,28 +24,28 @@ const About = () => {
           style={{backgroundColor: "rgb(245, 245, 245)"}}>
 
           <div className='w-full' ref={ref}>
-            <PageHeader header='O Nama'/>
+            <PageHeader header='Kontakt'/>
           </div>
 
-          <div className='w-full p-5 m-5 text-xl'>
-            <p className="ml-5">
+          <div className='w-full p-3 m-5 text-xl' style={{marginTop: "40px"}}>
+            <p className="m-5">
               <b>Agromašina Plus</b> je porodična firma sa dugom tradicijom, osnovana davne 1994. godine. 
               Naša priča počela je kao prodavnica rezervnih delova za poljoprivredne mašine, 
               iz potrebe da poljoprivrednicima u regionu obezbedimo kvalitetne i dostupne komponente za svakodnevni rad. 
               Kroz godine posvećenog rada, razvijali smo se i širili delatnost, 
               prateći potrebe tržišta i osluškujući zahteve savremenog poljoprivrednika.
             </p>
-            <br/>
-            <p className="ml-5">
+            
+            <p className="m-5">
               Danas <b>Agromašina Plus</b> posluje kao moderna i višeslojna kompanija koja objedinjuje više oblasti delovanja, 
               uz stalno ulaganje u razvoj i kvalitet.
             </p>
-            <br/>
-            <p className="ml-5">
+
+            <p className="m-5">
               Naše glavne delatnosti obuhvataju:
             </p>
-            <br/>
-            <ul className='ml-5 flex flex-col gap-4 pl-4'>
+
+            <ul className='m-5 flex flex-col gap-4'>
               <li >
                 <b> - Prodavnicu rezervnih delova za poljoprivredne mašine, </b> 
                 sa bogatim asortimanom delova za različite tipove mehanizacije i opreme.
@@ -64,13 +64,13 @@ const About = () => {
                 Zastupamo renomirane proizvođače i nudimo tehničku podršku prilikom izbora i korišćenja opreme.
               </li>
             </ul>
-            <br/>
-            <p className="ml-5">
+
+            <p className="m-5">
               Više od 30 godina uspešno poslujemo zahvaljujući jasno postavljenim vrednostima – <b>kvalitet, odgovornost, 
               inovacija i posvećenost kupcu</b>. Ponosni smo što smo postali oslonac mnogim gazdinstvima, preduzetnicima i firmama širom Srbije.
             </p>
-            <br/>
-            <p className="ml-5">
+
+            <p className="m-5">
               Dobrodošli u <b>Agromašinu Plus</b> – mesto gde se tradicija i savremenost susreću, 
               a svaki kupac dobija rešenje prilagođeno njegovim potrebama.
             </p>
@@ -80,4 +80,4 @@ const About = () => {
   )
 }
 
-export default About
+export default Contact
