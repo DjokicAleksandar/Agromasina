@@ -1,4 +1,4 @@
-@keyframes onScroll {
+/* @keyframes onScroll {
     from {
         opacity: 0;
         transform: translateY(300px);
@@ -13,4 +13,4 @@
     animation: onScroll linear;
     animation-timeline: view();
     animation-range: entry 0 cover 20%;
-}
+} */

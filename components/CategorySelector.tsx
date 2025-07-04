@@ -6,12 +6,12 @@ const categories = [
   {
     name: "Prikolice",
     image: "/images/trailer1.webp",
-    url: "/tractor'trailers",
+    url: "/tractor-trailers",
   },
   {
     name: "Priključne mašine",
     image: "/images/conn1.webp",
-    url: "/connecting'machines",
+    url: "/connecting-machines",
   },
   {
     name: "Folije",
@@ -31,7 +31,7 @@ const categories = [
   },
   {
     name: "Montaža plastenika",
-    image: "/images/greenhouse3.webp",
+    image: "/images/montaza.webp",
     url: "/pelet",
   },
 ];

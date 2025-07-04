@@ -6,6 +6,7 @@ import Image from "next/image";
 import { useIsMobile } from "@/hooks/useIsMobile";
 import Link from "next/link";
 import { FaChevronRight } from "react-icons/fa";
+import FadeIn from "./FadeIn";
 
 interface CardProps {
   name: string;
@@ -75,39 +76,49 @@ const Card = ({ name, images, desc, url, index }: CardProps) => {
         className={`block shadow-xl relative bg-white pb-5`}
         style={{ width: "100%" }}
       >
-        <Image
-          width={isMobile ? 400 : 800}
-          height={400}
-          alt="Bags"
-          src={images[0]}
-          className="w-full"
-          style={{ height: "auto" }}
-        />
+        <FadeIn duration={100}>
+          <Image
+            width={isMobile ? 400 : 800}
+            height={400}
+            alt="Bags"
+            src={images[0]}
+            className="w-full"
+            style={{ height: "auto" }}
+          />
+        </FadeIn>
 
-        <div className="p-4">
-          <p
-            className={` ${isMobile ? "text-4xl" : "text-5xl"} pt-3 pb-3`}
-            style={{ fontWeight: "200" }}
-          >
-            {name}
-          </p>
-          <p className={`pt-2 pb-2 mb-5 ${isMobile ? "text-xl" : "text-2xl"}`}>
-            {desc}
-          </p>
-          <Link
-            href={url}
-            className={`mt-5 flex items-center p-3 border border-red-500 rounded-md ${
-              isMobile ? "text-xl" : "text-2xl"
-            } gap-2`}
-            style={{ width: "min-content" }}
-          >
-            Detaljnije
-            <FaChevronRight className="text-sm" />
-          </Link>
-        </div>
+        <FadeIn duration={100}>
+          <div className="p-4">
+            <p
+              className={` ${isMobile ? "text-4xl" : "text-5xl"} pt-3 pb-3`}
+              style={{ fontWeight: "200" }}
+            >
+              {name}
+            </p>
+            <p
+              className={`pt-2 pb-2 mb-5 ${isMobile ? "text-xl" : "text-2xl"}`}
+            >
+              {desc}
+            </p>
+            <Link
+              href={url}
+              className={`mt-5 flex items-center p-3 border border-red-500 rounded-md ${
+                isMobile ? "text-xl" : "text-2xl"
+              } gap-2`}
+              style={{ width: "min-content" }}
+            >
+              Detaljnije
+              <FaChevronRight className="text-sm" />
+            </Link>
+          </div>
+        </FadeIn>
       </div>
 
-      <div style={{ width: isMobile ? "100%" : "70%" }}>{descs[index]}</div>
+      <div style={{ width: isMobile ? "100%" : "80%" }}>
+        <FadeIn>
+          <div>{descs[index]}</div>
+        </FadeIn>
+      </div>
     </div>
   );
 };
