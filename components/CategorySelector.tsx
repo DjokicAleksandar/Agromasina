@@ -5,7 +5,7 @@ const categories = [
   { name: "Traktori", image: "/images/IMT-539.2-DI.webp", url: "/tractors" },
   {
     name: "Prikolice",
-    image: "/images/trailer1.webp",
+    image: "/images/trailer-transparent.webp",
     url: "/tractor-trailers",
   },
   {
@@ -40,7 +40,7 @@ const CategorySelector = () => {
   return (
     <div className="w-full p-3 flex justify-center items-center">
       <div
-        style={{ width: "90%", maxHeight: "400px" }}
+        style={{ width: "90%", maxHeight: "350px" }}
         className="bg-white shadow-xl flex justify-between items-center flex-col md:flex-row lg:flex-row overflow-x-hidden overflow-y-auto md:overflow-x-auto lg:overflow-x-auto scrollbar-hide"
       >
         {categories.map((category, index) => {

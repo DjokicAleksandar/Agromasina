@@ -1,33 +1,56 @@
-"use client"
+"use client";
 
-import React, { useEffect, useRef } from 'react';
-import Image from 'next/image';
-import { useIsMobile } from '@/hooks/useIsMobile';
-import { useThreshold } from '@/context/ThresholdContext';
+import React, { useEffect, useRef, useState } from "react";
+import Image from "next/image";
+import { useIsMobile } from "@/hooks/useIsMobile";
+import { useThreshold } from "@/context/ThresholdContext";
 
 const WelcomeImage = () => {
-    const isMobile = useIsMobile();
-    const ref = useRef<HTMLDivElement>(null);
-    const { setThreshold } = useThreshold();
-          
-        useEffect(() => {
-        if (ref.current) {
-            const height = ref.current.offsetHeight;
-            setThreshold(height);
-        }
-        }, [setThreshold]);
+  const isMobile = useIsMobile();
+  const images = [
+    "/images/hero1.webp",
+    "/images/hero2.webp",
+    "/images/hero3.webp",
+  ];
 
-    return (
-        <div className="w-full relative" style={{marginBottom: "40px"}} ref={ref}>
-            <Image
-                src={ isMobile ? "/images/home5.webp" : "/images/home5.webp"}
-                alt="Pocetna slika"
-                className="w-full shadow-md"
-                width={300}
-                height={300}
-                priority/>
-        </div>
-    )
-}
+  const [currentIndex, setCurrentIndex] = useState<number>(0);
+  const ref = useRef<HTMLDivElement>(null);
+  const { setThreshold } = useThreshold();
 
-export default WelcomeImage
+  const nextSlide = (): void => {
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
+  };
+
+  useEffect(() => {
+    if (ref.current) {
+      const height = ref.current.offsetHeight;
+      setThreshold(height);
+    }
+  }, [setThreshold]);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      nextSlide();
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, [currentIndex, nextSlide]);
+
+  return (
+    <div
+      className="w-full h-[200px] md:h-[500px] lg:h-[500px] relative"
+      style={{ marginBottom: "40px" }}
+      ref={ref}
+    >
+      <Image
+        src={isMobile ? images[currentIndex] : images[currentIndex]}
+        alt="Pocetna slika"
+        className="object-cover shadow-md"
+        fill
+        priority
+      />
+    </div>
+  );
+};
+
+export default WelcomeImage;

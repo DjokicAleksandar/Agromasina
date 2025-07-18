@@ -59,7 +59,7 @@
         "id": 8,
         "name": "Traktorske prikolice",
         "image": "/images/trailer2.webp",
-        "images": ["/images/trailer1.webp", "/images/trailer2.webp", "/images/trailer3.webp"],
+        "images": ["/images/trailer1.webp", "/images/trailer2.webp", "/images/trailer-front.webp", "/images/trailer-back.webp"],
         "desc": "Pored traktora, u ponudi imamo i traktorske prikolice koje kombinuju kvalitet i pristupačnost. Prikolice su dizajnirane da izdrže teške uslove rada, pružajući sigurnost i efikasnost prilikom transporta različitih vrsta tereta i rada u povrtarstvu, ratarstvu ili voćarstvu",
         "url": "/tractor-trailers" 
     },
