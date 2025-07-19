@@ -1,40 +1,50 @@
 "use client";
 
-import React from 'react'
-import data from '@/data/data.json';
-import PageComponent from '@/components/PageComponent';
-import Breadcrumb from '@/components/Breadcrumb';
+import React from "react";
+import data from "@/data/data.json";
+import PageComponent from "@/components/PageComponent";
+import Breadcrumb from "@/components/Breadcrumb";
 
 const ConMachines = () => {
   const connMachines = data[8];
 
   return (
     <>
-      <Breadcrumb/>
-      <div 
-        className="w-full flex justify-center items-center flex-col gap-4" 
-        style={{backgroundColor: "rgb(245, 245, 245)"}}>
-
-        <PageComponent product={connMachines} header='Priključne mašine' index={0} aspectRatio='2/1'>
+      <Breadcrumb />
+      <div
+        className="w-full flex justify-center items-center flex-col gap-4"
+        style={{ backgroundColor: "rgb(245, 245, 245)" }}
+      >
+        <PageComponent
+          product={connMachines}
+          header="Priključne mašine"
+          index={0}
+          aspectRatio="2/1"
+        >
           <div>
             <p>
-              Prodajemo visokokvalitetne <b className='font-bold'>priključne mašine</b> namenjene za teške uslove rada, dostupne po pristupačnoj ceni 
+              U ponudi imamo kompletnu paletu priključnih mašina koje su
+              neophodne za savremenu poljoprivrednu proizvodnju. To uključuje
+              <b>freze, plugove, rasipače mineralnog đubriva</b>, kao i mnoge
+              druge mašine koje olakšavaju i unapređuju vaš rad na terenu.
             </p>
-            <br/>
+            <br />
             <p>
-              Naše kese izrađujemo od <b>LDPE ili HDPE materijala</b>, što garantuje izdržljivost, fleksibilnost i lep izgled. 
-              Takođe, mogu biti <b>sa štampom po želji</b>, čime vaša ambalaža dobija prepoznatljiv i profesionalan izgled koji 
-              dodatno promoviše vaš brend.
+              Pored standardnih modela,koje uvek imamo na stanju, radimo i
+              mašine po narudžbini, prilagođene specifičnim potrebama i
+              zahtevima naših kupaca. Naš cilj je da obezbedimo opremu koja će
+              maksimalno doprineti efikasnosti i kvalitetu vaše proizvodnje.
             </p>
-            <br/>
+            <br />
             <p>
-              Butik kese su savršen izbor za sve koji žele da kombinuju kvalitet, funkcionalnost i atraktivan dizajn.
+              Bez obzira na veličinu i tip posla, kod nas možete pronaći sve što
+              vam je potrebno za uspešan rad i dobar prinos.
             </p>
           </div>
         </PageComponent>
       </div>
     </>
-  )
-}
+  );
+};
 
-export default ConMachines
+export default ConMachines;

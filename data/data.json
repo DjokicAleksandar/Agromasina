@@ -44,7 +44,7 @@
         "name": "Crne folije",
         "image": "/images/black-foil4.webp",
         "images": ["/images/black-foil1.webp", "/images/black-foil2.webp"],
-        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "desc": "U okviru sopstvene proizvodnje, razvili smo i plasirali naš brend AGM Agrofol – crnu foliju namenjenu za upotrebu u poljoprivredi.",
         "url": "/pe-black-foil" 
     },
     {
@@ -68,7 +68,7 @@
         "name": "Priključne mašine",
         "image": "/images/conn1.webp",
         "images": ["/images/conn1.webp", "/images/conn2.webp", "/images/conn3.webp", "/images/conn4.webp"],
-        "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
+        "desc": "U ponudi imamo kompletnu paletu priključnih mašina koje su neophodne za savremenu poljoprivrednu proizvodnju. To uključuje freze, plugove, rasipače mineralnog đubriva, kao i mnoge druge mašine koje olakšavaju i unapređuju vaš rad na terenu.",
         "url": "/connecting-machines" 
     },
     {
@@ -82,8 +82,8 @@
     {
         "id": 11,
         "name": "Rezervni delovi",
-        "image": "/images/home2.jpg",
-        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "image": "/images/error.jpg",
+        "images": ["/images/error.jpg", "/images/error.jpeg"],
         "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
         "url": "/spare-parts" 
     },
@@ -146,8 +146,8 @@
     {
         "id": 19,
         "name": "Veštačko đubrivo",
-        "image": "/images/home2.jpg",
-        "images": ["/images/home2.jpg", "/images/home1.jpeg"],
+        "image": "/images/error.jpg",
+        "images": ["/images/error.jpg", "/images/error.jpeg"],
         "desc": "eodeduoe ewfoiwqdppkoqwd dewdwi dionewoindwpdw dewiondwidw uqpoeg inoinew dwn iowncoined owendp doedwnio wnpb wie dd qwddnined ",
         "url": "/pharmacy"
     }
